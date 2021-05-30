@@ -8,11 +8,11 @@ A template of *Edie Homepage* developed by Rubakpreyan using **Tailwind CSS**:
 To clone this project :
 
 ```bash
-git clone ""
+git clone "https://github.com/rubakpreyan/Edie-homepage.git"
 ```
 
 ## Demo link
-[Edie Homepage demo link]()
+[Edie Homepage demo link](https://rubakpreyan.github.io/Edie-homepage/)
 
 ## Credits
 Resource from [DevChallenges](https://devchallenges.io/)
