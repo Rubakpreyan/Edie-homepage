@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="icon" href="./img/devchallenges.png">
+    <title>Edie-Homepage</title>
+</head>
+
+<body>
+
+    <div class="pt-4 px-4 sm:pt-5 sm:px-5 md:px-9 md:pt-9 lg:pt-10 lg:px-12 ">
+        <header>
+            <nav class="flex justify-between items-center">
+                <div class="text-2xl md:text-3xl lg:text-4xl font-bold" id="heading">Edie</div>
+                <button class="p-1 space-y-1 grid grid-cols-1 focus:outline-none sm:hidden" id="disabled"
+                    onclick="onClick(); return false;">
+                    <div class="bg-black w-8 h-1 border border-black" id="bar-1"></div>
+                    <div class="bg-black w-8 h-1 border border-black" id="bar-3"></div>
+                    <div class="bg-black w-8 h-1 border border-black" id="bar-2"></div>
+                </button>
+                <div class="hidden sm:flex sm:space-x-7 text-gray-600 font-semibold" id="navbar">
+                    <a class="block transition duration-100 hover:text-black hover:underline" href="">Home</a>
+                    <a class="block transition duration-100 hover:text-black hover:underline" href="">Services</a>
+                    <a class="block transition duration-100 hover:text-black hover:underline" href="">OurWorks</a>
+                    <a class="block transition duration-100 hover:text-black hover:underline" href="">Clients</a>
+                    <a class="block transition duration-100 hover:text-black hover:underline" href="">Contact</a>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div id="content">
+        <div class="ml-10 mt-20 md:ml-20 lg:mt-28 lg:ml-60">
+            <div class="text-blue-500 text-base md:text-lg tracking-wide font-medium">
+                Unhappy with your website?
+            </div>
+            <div class="mt-4 md:mt-7  text-2xl text-gray-800 font-medium leading-8 md:text-4xl md:leading-10">
+                We create beautiful &nbsp; <br>and fast web services
+            </div>
+        </div>
+
+        <div class="flex justify-center mt-10 px-3">
+            <img class="rounded-2xl hover:shadow-xl" src="./img/heroImage.jpg" alt="">
+        </div>
+
+        <div class="ml-10 mt-6 md:ml-20 md:mt-12 lg:mt-16 lg:ml-60">
+            <div class="w-10/12 sm:w-6/12 md:w-4/12">
+                <div class="text-2xl text-gray-800 font-medium leading-8 md:text-4xl md:leading-10">
+                    Story, emotion &nbsp; <br>and purpose
+                </div>
+                <div class="mt-5 lg:mt-7 text-base font-normal  text-gray-500">
+                    We help transform your ideas into real&nbsp;<br>world applications that will
+                    outperform&nbsp;<br>your
+                    toughest
+                    competition
+                    and help you&nbsp;<br>achieve your strategic goals in short period of time.
+                </div>
+                <div style="font-size: 0.625rem;" class="block text-gray-500 mt-4 lg:mt-8 lg:text-sm tracking-wider">
+                    Want us to contact you?
+                </div>
+                <div class="mt-2">
+                    <form>
+                        <div class="lg:text-lg flex items-center">
+                            <input
+                                class="p-2 pl-4 mt-1  bg-gray-100 w-full border  border-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-300 hover:shadow-md"
+                                type="email" name="email" placeholder="Email">
+                            <button
+                                class="mt-1 -ml-16 flex justify-center items-center h-8 w-14 bg-blue-400 text-white rounded-md transition duration-100 hover:bg-blue-500">
+                                Join
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5 ml-10 md:mt-10 md:ml-12 lg:mt-16 lg:ml-48">
+            <div class=" text-2xl text-gray-800 font-medium leading-8 md:text-4xl md:leading-10">
+                We offer high &nbsp; <br> demand services
+            </div>
+            <div class="w-10/12 sm:w-7/12 md:w-10/12 mt-5 md:mt-16 md:ml-9">
+                <div class="space-y-4 sm:grid md:grid-cols-3 md:gap-x-5 md:space-y-0">
+                    <div
+                        class="hover:shadow-xl hover:transition hover:duration-100 border border-gray-100 hover:rounded-md pl-5">
+                        <div
+                            class="bg-blue-600 flex justify-center items-center w-9 h-9 md:w-11 md:h-11 lg:w-12 lg:h-12 mt-5 rounded-md">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white lg:h-7 lg:w-7"
+                                viewBox="0 0 20 20" fill="currentColor">
+                                <path
+                                    d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
+                            </svg>
+                        </div>
+                        <div class="mt-4 font-bold text-2xl text-gray-800 leading-8 md:text-3xl md:mt-8">
+                            UI/UX Design
+                        </div>
+                        <div class="mt-5 font-normal text-gray-800 tracking-tight md:mt-8 text-sm md:text-base">
+                            Lorem ipsum dolor sit amet, &nbsp; <br> consectetur adipiscing elit. Duis a &nbsp;<br> metus
+                            ac
+                            nulla consequat aliquet &nbsp; <br>
+                            id quis turpis.
+                        </div>
+                        <div class="mt-6 mb-5 md:mt-8">
+                            <button
+                                class="border p-2 rounded-xl  text-gray-400 bg-gray-200 hover:bg-blue-600 hover:text-white transition focus:outline-none">
+                                Get started
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="hover:shadow-xl hover:transition hover:duration-100 border border-gray-100 hover:rounded-md pl-5">
+                        <div
+                            class="bg-green-600 flex justify-center items-center w-9 h-9 md:w-11 md:h-11 lg:w-12 lg:h-12 mt-5 rounded-md">
+                            <div class="material-icons text-white" hidden>
+                                code
+                            </div>
+                        </div>
+                        <div class="mt-4 font-bold text-2xl text-gray-800 leading-8 md:text-3xl md:mt-8">
+                            Front End
+                        </div>
+                        <div class="mt-5 font-normal text-gray-800 tracking-tight md:mt-8 text-sm md:text-base">
+                            Lorem ipsum dolor sit amet, &nbsp; <br> consectetur adipiscing elit. Duis a &nbsp;<br> metus
+                            ac
+                            nulla consequat aliquet &nbsp; <br>
+                            id quis turpis.
+                        </div>
+                        <div class="mt-6 mb-5 md:mt-8">
+                            <button
+                                class="border p-2 rounded-xl  text-gray-400 bg-gray-200 hover:bg-green-600 hover:text-white transition focus:outline-none">
+                                Get started
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="hover:shadow-xl hover:transition hover:duration-100 border border-gray-100 hover:rounded-md pl-5">
+                        <div
+                            class="bg-red-500 flex justify-center items-center w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12 mt-5 rounded-md">
+                            <span class="relative material-icons text-white " hidden>
+                                storage
+                            </span>
+                        </div>
+                        <div class="mt-4 font-bold text-2xl text-gray-800 leading-8 md:text-3xl md:mt-8">
+                            Back End
+                        </div>
+                        <div class="mt-5 font-normal text-gray-800 tracking-tight md:mt-8 text-sm md:text-base">
+                            Lorem ipsum dolor sit amet, &nbsp; <br> consectetur adipiscing elit. Duis a &nbsp;<br> metus
+                            ac
+                            nulla consequat aliquet &nbsp; <br>
+                            id quis turpis.
+                        </div>
+                        <div class="mt-6 mb-5 md:mt-8">
+                            <button
+                                class="border p-2 rounded-xl  text-gray-400 bg-gray-200 hover:bg-red-500 hover:text-white transition focus:outline-none">
+                                Get started
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-10 ml-10 md:mt-8 md:ml-12 lg:mt-36 lg:ml-48 w-10/12 sm:w-9/12 md:w-10/12">
+            <div class=" text-2xl text-gray-800 font-medium leading-8 md:text-4xl md:leading-10">
+                Good design means&nbsp; <br> good business
+            </div>
+            <div class="mt-8 sm:mt-11 sm:grid sm:grid-cols-2 sm:gap-x-4 sm:gap-y-4 space-y-7 sm:space-y-0">
+                <div class="sm:pt-40">
+                    <div>
+                        <img class="rounded-2xl" src="./img/smarthome.jpg" alt="" srcset="">
+                    </div>
+                    <div class="text-base  text-gray-600 mt-4">
+                        Full stack application
+                    </div>
+                    <div class="text-gray-800 text-xl sm:text-2xl font-medium mt-1">
+                        Smart home dashboard
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="rounded-2xl" src="./img/onboard.png" alt="" srcset="">
+                    </div>
+                    <div class="text-base  text-gray-600 mt-4">
+                        UX/UI design
+                    </div>
+                    <div class="text-gray-800 text-xl sm:text-2xl font-medium mt-1">
+                        Onboard application
+                    </div>
+                </div>
+                <div class="sm:pt-40">
+                    <div>
+                        <img class="rounded-2xl" src="./img/booking.png" alt="" srcset="">
+                    </div>
+                    <div class="text-base  text-gray-600 mt-4">
+                        Mobile application
+                    </div>
+                    <div class="text-gray-800 text-xl sm:text-2xl font-medium mt-1">
+                        Booking system
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="rounded-2xl" src="./img/juice-product.png" alt="" srcset="">
+                    </div>
+                    <div class="text-base  text-gray-600 mt-4">
+                        Front End application
+                    </div>
+                    <div class="text-gray-800 text-xl sm:text-2xl font-medium mt-1">
+                        Juice product homepage
+                    </div>
+                </div>
+            </div>
+            <div class="flex float-left sm:float-right pt-10 sm:pr-5">
+                <div class="text-blue-500 font-medium text-xl md:text-2xl tracking-wider">
+                    see more
+                </div>
+                <div class="mt-1 ml-2 sm:mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-28 ml-10 md:mt-8 md:ml-12 lg:mt-24 lg:ml-48">
+            <div
+                class="sm:mt-20 w-10/12 sm:w-9/12 md:w-11/12 space-y-2 sm:flex sm:justify-between sm:items-center sm:gap-10">
+                <div class="pl-8 md:pl-16">
+                    <div class="text-red-500 text-lg mb-2">
+                        Meet the team
+                    </div>
+                    <div class="text-gray-800 font-bold text-3xl">
+                        We are chilled&nbsp;<br> and a laidback&nbsp; <br>team
+                    </div>
+                    <div class="mt-4 text-sm w-60 text-gray-700">Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit.
+                    </div>
+                </div>
+                <div class="pt-6 flex justify-center items-center gap-2">
+                    <div>
+                        <img class="rounded-2xl" src="./img/person3.png" alt="">
+                    </div>
+                    <div class="grid grid-rows-2 gap-1">
+                        <div>
+                            <img class="rounded-2xl" src="./img/person1.png" alt="">
+                        </div>
+                        <div>
+                            <img class="rounded-2xl" src="./img/person2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-16 ml-10 md:mt-8 md:ml-12 lg:mt-28 lg:ml-48">
+            <div
+                class="w-10/12 sm:w-9/12 lg:w-5/12 text-xl md:text-2xl text-gray-800 leading-8 tracking-wider font-semibold">
+                “Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented
+                team.”
+            </div>
+            <div class="flex space-x-3 mt-10">
+                <div class="w-16 h-16 md:w-20 md:h-20">
+                    <img class="rounded-xl" src="./img/person4.png" alt="" srcset="">
+                </div>
+                <div class="pl-4">
+                    <div class="text-gray-800 text-lg font-medium lg:mt-1">
+                        Carlos Tran
+                    </div>
+                    <div class="text-gray-400 mt-1 text-base lg:mt-2">
+                        The Decorate Gatsby
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="inline" id="footer">
+        <div style="background: #110e1f;" class="mt-28  lg:mt-36 p-8 md:p-32 md:pt-6 md:pb-3 text-white">
+            <div class="space-y-10  sm:flex sm:justify-between sm:space-y-0">
+                <div class="text-base space-y-2">
+                    <a class="block hover:underline" href="">Home</a>
+                    <a class="block hover:underline" href="">Services</a>
+                    <a class="block hover:underline" href="">Our Works</a>
+                    <a class="block hover:underline" href="">Clients</a>
+                    <a class="block hover:underline" href="">Contact</a>
+                </div>
+                <div class="space-y-2 ">
+                    <div class="font-sans  font-semibold text-4xl">
+                        Edie
+                    </div>
+                    <div class="flex space-x-3 pt-3">
+                        <a href=""><img class="w-6 h-6" src="./icons/instagram.svg" alt=""></a>
+                        <a href=""><img class="w-6 h-6" src="./icons/twitter.svg" alt=""></a>
+                        <a href=""><img class="w-6 h-6" src="./icons/linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="sm:w-4/12">
+                    <div style="font-size: 0.625rem;" class="block text-gray-400 mt-1 lg:text-lg tracking-wider">
+                        Want us to contact you?
+                    </div>
+                    <div class="mt-2">
+                        <form>
+                            <div class="lg:text-lg flex items-center">
+                                <input
+                                    class="p-2 pl-4 mt-1  bg-gray-100 w-full border  border-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-300 hover:shadow-md"
+                                    type="email" name="email" placeholder="Email">
+                                <button
+                                    class="mt-1 -ml-16 flex justify-center items-center h-8 w-14 bg-blue-400 text-white rounded-md transition duration-100 hover:bg-blue-500 focus:outline-none">
+                                    Join
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-8 text-center">
+                <a class="text-sm bottom-0 md:text-lg text-gray-300 font-serif tracking-wider"
+                    href="https://github.com/Rubakpreyan" target="_blank">
+                    Anonymous@DevChallenges.io</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="./javascript/script.js"></script>
+</html>
